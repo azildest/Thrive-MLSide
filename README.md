@@ -16,8 +16,12 @@ Validation set contains data from 79 volunteers (11 depressed and 68 non-depress
 Each folder contains depression data for one volunteer.
 
 {positive/negative/neutral}.wav: Raw audio in wav
+
 {positive/negative/neutral}_out.wav: Preprocessed audio. Preprocessing operations include denoising and de-muting
+
 {positive/negative/neutral}.txt: Audio translation
+
 label.txt: Raw SDS score
+
 new_label.txt: Standard SDS score (Raw SDS score multiplied by 1.25)
 
